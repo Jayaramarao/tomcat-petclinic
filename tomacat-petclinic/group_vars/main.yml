@@ -1,0 +1,3 @@
+admin_password: tomcat123
+TOMCAT_HOME: /usr/share/tomcat
+NEXUS_PASS: admin123
