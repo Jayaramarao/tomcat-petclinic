@@ -1,8 +1,8 @@
 ---
 - name: Download petclinic war from nexus
   get_url:
-    url: "http://{{ NEXUS_IP }}:{{ nexus_port }}/repository/maven-snapshots/org/springframework/samples/spring-petclinic/4.2.{{ BUILD_NO }}-SNAPSHOT/spring-petclinic-4.2.{{ BUILD_NO }}-20220726.104143-2.war"
-    # url: "http://{{ NEXUS_IP }}:{{ nexus_port }}/nexus/content/repositories/releases/org/springframework/samples/spring-petclinic/4.2.{{ BUILD_NO }}/spring-petclinic-4.2.{{ BUILD_NO }}.war"
+    url: "http://{{ NEXUS_IP }}:{{ nexus_port }}/repository/maven-snapshots/org/springframework/samples/spring-petclinic/4.2.6-SNAPSHOT/spring-petclinic-4.2.6-20220726.104143-2.war"
+    # url: "http://{{ NEXUS_IP }}:{{ nexus_port }}/nexus/content/repositories/releases/org/springframework/samples/spring-petclinic/4.2.{{ BUILD_NO }}/spring-petclinic-4.2.6.war"
     dest: "{{ TOMCAT_HOME }}/webapps/petclinic.war"
     url_username: "{{ NEXUS_USER }}"
     url_password: "{{ NEXUS_PASS }}"
