@@ -2,3 +2,4 @@
 NEXUS_IP: 192.168.1.10
 NEXUS_USER: admin
 nexus_port: 8081
+BUILD_NO: ${env.BUILD_NUMBER} 
